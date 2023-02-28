@@ -21,7 +21,6 @@
 # Usage
  
 1. Execute the following command.
-以下コマンドを実行することで、乱数、Dp(Dq)の正解値、Dp(Dq)の演算系列、Dp(Dq)の演算系列長、復元率、演算系列の上位何ビットが連続しているかの結果をblind_secret_keyディレクトリに保存する。結果は演算系列長が大きいものから順に並び、さらに復元率が高いものから順に並ぶ。
 ```bash
 python3 blind_secret_key.py [keyname] [Random mask bit length]
 ```
